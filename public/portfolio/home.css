@@ -339,7 +339,7 @@ body.home-page.is-vivi-open { overflow: hidden; }
   .home-hero__identity { margin-bottom: 34px; }
   .home-eyebrow { margin-bottom: 12px; font-size: 25px; }
   .home-hero__copy .home-kicker { font-size: 11px; }
-  .home-hero h1 { font-size: clamp(31px,10.4vw,45px); line-height: 1.02; }
+  .home-hero h1 { font-size: clamp(23px,7.6vw,45px); line-height: 1.02; }
   .home-hero h1 span { white-space: nowrap; }
   .home-hero__lead { font-size: 20px; }
   .home-hero__vivi { min-height: 300px; margin-top: -8px; }
