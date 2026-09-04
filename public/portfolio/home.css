@@ -47,10 +47,10 @@ body.home-page.is-vivi-open { overflow: hidden; }
 .home-hero::after { content: ""; position: absolute; inset: 0; background: linear-gradient(105deg,transparent 18%,rgba(255,255,255,.22) 39%,transparent 59%); mix-blend-mode: screen; pointer-events: none; }
 .home-hero__grid { position: relative; z-index: 1; display: grid; grid-template-columns: minmax(610px,1.22fr) minmax(390px,.78fr); gap: 0; align-items: center; min-height: calc(100svh - 122px); }
 .home-hero__copy { position: relative; z-index: 3; min-width: 0; transform: translateY(-16px); }
-.home-hero__identity { margin-bottom: clamp(36px,5vh,56px); }
-.home-eyebrow { margin: 0 0 8px; color: var(--ink); font-size: clamp(15px,1.3vw,19px); font-weight: 600; line-height: 1.2; text-transform: uppercase; letter-spacing: .12em; }
+.home-hero__identity { margin-bottom: clamp(62px,8vh,92px); }
+.home-eyebrow { margin: 0 0 14px; color: var(--ink); font-size: clamp(29px,2.7vw,42px); font-weight: 600; line-height: 1; text-transform: uppercase; letter-spacing: .08em; }
 .home-hero__copy .home-kicker { margin: 0; color: rgba(23,23,25,.76); font-size: clamp(12px,1vw,15px); font-weight: 600; letter-spacing: .16em; }
-.home-hero h1 { width: min(100%,760px); max-width: none; margin: 0 0 28px; font-family: var(--sans); font-size: clamp(46px,4.4vw,72px); font-weight: 300; line-height: 1.02; letter-spacing: -.052em; text-wrap: balance; }
+.home-hero h1 { width: min(100%,700px); max-width: none; margin: 0 0 28px; font-family: var(--sans); font-size: clamp(44px,4vw,64px); font-weight: 300; line-height: 1.02; letter-spacing: -.052em; text-wrap: balance; }
 .home-hero h1 span { display: block; white-space: nowrap; }
 .home-hero__lead { max-width: 720px; margin: 0 0 40px; color: rgba(23,23,25,.68); font-size: clamp(21px,1.8vw,28px); font-weight: 300; line-height: 1.35; letter-spacing: -.02em; }
 .home-actions, .home-contact__actions, .home-journal__actions { display: flex; flex-wrap: wrap; align-items: center; gap: 26px; }
@@ -72,7 +72,7 @@ body.home-page.is-vivi-open { overflow: hidden; }
 .system { --system-gap: clamp(35px,7vw,110px); --system-gap-third: clamp(11.667px,2.333vw,36.667px); position: relative; padding: clamp(72px,8vw,112px) 0 clamp(78px,8.5vw,120px); overflow: hidden; background: linear-gradient(180deg,#f4edef 0%,#eef6f6 58%,#fffdfb 100%); }
 .system__header { text-align: center; }
 .system__header h2, .packs__heading h2, .cases__heading h2, .home-about__title h2, .home-contact h2 { margin: 0; font-family: var(--sans); font-size: clamp(44px,5vw,74px); font-weight: 300; line-height: 1; letter-spacing: -.055em; }
-.system__header h2 { font-size: clamp(48px,6.2vw,84px); }
+.system__header h2 { font-size: clamp(68px,10vw,150px); }
 .system__routes { position: relative; height: clamp(68px,7vw,92px); margin-top: clamp(20px,2.8vw,38px); }
 .system__routes::before { position: absolute; top: 0; left: calc(50% - 1px); width: 2px; height: 22px; border-radius: 999px; background: linear-gradient(var(--coral-deep),var(--cyan)); content: ""; transform: scaleY(var(--system-trunk-progress,1)); transform-origin: top; }
 .system-route { position: absolute; top: 20px; height: calc(100% - 20px); border-color: currentColor; border-style: solid; }
@@ -337,7 +337,7 @@ body.home-page.is-vivi-open { overflow: hidden; }
   .home-hero { min-height: 100svh; padding: 76px 0 28px; }
   .home-hero__grid { padding-top: 34px; }
   .home-hero__identity { margin-bottom: 34px; }
-  .home-eyebrow { margin-bottom: 8px; font-size: 15px; }
+  .home-eyebrow { margin-bottom: 12px; font-size: 25px; }
   .home-hero__copy .home-kicker { font-size: 11px; }
   .home-hero h1 { font-size: clamp(31px,10.4vw,45px); line-height: 1.02; }
   .home-hero h1 span { white-space: nowrap; }
@@ -347,7 +347,7 @@ body.home-page.is-vivi-open { overflow: hidden; }
   .home-hero__vivi-copy { right: 0; bottom: 0; width: 195px; padding: 13px 15px; font-size: 11px; }
   .home-scroll-cue { display: none; }
   .system { padding: 68px 0 76px; }
-  .system__header h2 { font-size: clamp(46px,14vw,64px); }
+  .system__header h2 { font-size: clamp(60px,18vw,84px); }
   .system__routes { height: 48px; margin-top: 24px; }
   .system-route--left, .system-route--right { display: none; }
   .system-route--center { height: 100%; }
