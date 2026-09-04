@@ -1,6 +1,7 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "comunica-con-vicky",
+  "workers_dev": true,
   "compatibility_date": "2026-09-04",
   "compatibility_flags": [
     "nodejs_compat"
