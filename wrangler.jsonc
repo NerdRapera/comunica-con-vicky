@@ -11,6 +11,16 @@
     "not_found_handling": "none",
     "binding": "ASSETS"
   },
+  "routes": [
+    {
+      "pattern": "comunicaconvicky.com/*",
+      "zone_name": "comunicaconvicky.com"
+    },
+    {
+      "pattern": "www.comunicaconvicky.com/*",
+      "zone_name": "comunicaconvicky.com"
+    }
+  ],
   "images": {
     "binding": "IMAGES"
   }
